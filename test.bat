@@ -1,5 +1,5 @@
 @echo off
-findstr /C:"Hello this is Durgavihashini!" index.html >nul
+findstr /C:"Say HIIII" index.html >nul
 if errorlevel 1 (
     echo Test failed: Text not found.
     exit /b 1
